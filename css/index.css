@@ -1,0 +1,17 @@
+/*
+@import "variables";
+@import "mixins";
+
+@import "reset";
+
+@import "global";
+
+*/
+.nav-color {
+  background-color: #420000;
+}
+/*
+
+@import "footer";
+@import "home-page";
+*/

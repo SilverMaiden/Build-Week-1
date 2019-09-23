@@ -10,6 +10,38 @@
 .nav-color {
   background-color: #420000;
 }
+.img {
+  width: 100px;
+  height: 100px;
+  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+  object-fit: scale-down;
+}
+.featurette-divider {
+  margin: 80px 0;
+  /* <hr> between each */
+}
+.featurette {
+  padding: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+  /* Clear floats */
+}
+.featurette-image {
+  margin-top: −5%;
+  /* Vertically center image with the text */
+}
+.featurette-image .pull-left {
+  margin-right: 2%;
+}
+.featurette-image .pull-right {
+  margin-left: 2%;
+}
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
 /*
 
 @import "footer";

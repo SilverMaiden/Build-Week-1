@@ -16,6 +16,9 @@
   /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
   object-fit: scale-down;
 }
+button .right-side {
+  margin-left: 80%;
+}
 .featurette-divider {
   margin: 80px 0;
   /* <hr> between each */

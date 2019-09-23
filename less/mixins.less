@@ -1,0 +1,15 @@
+.custom-button(@bgcolor:teal, @font-color:white, @width:100%) {
+    background-color: @bgcolor;
+    width: @width;
+    color: @font-color;
+    cursor: pointer;
+    height: 45px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: @font-color;
+        color: @bgcolor;
+    }
+}

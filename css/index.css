@@ -5,6 +5,7 @@
 .myBtn {
   background-color: #420000 !important;
   width: 30% !important;
+  height: 100% !important;
   color: white !important;
   cursor: pointer !important;
   height: 45px !important;
@@ -22,6 +23,12 @@
 }
 html {
   font-size: 100%;
+  scroll-behavior: smooth !important;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 4rem;
@@ -53,12 +60,11 @@ img {
   object-fit: scale-down;
 }
 .featurette-divider {
-  margin: 80px 0;
+  margin: 2% 0;
   /* <hr> between each */
 }
 .featurette {
   padding: 5%;
-  padding-top: 2%;
   overflow: hidden;
   /* Clear floats */
 }
@@ -77,6 +83,26 @@ img {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+.team-members {
+  justify-content: center;
+}
+.team-member p {
+  font-size: 0.8rem !important;
+  text-align: center;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 /*
 

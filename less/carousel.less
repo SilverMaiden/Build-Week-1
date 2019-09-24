@@ -1,8 +1,14 @@
-.img{
-   width:100px;
-   height:100px;
+.carousel-padding {
+    margin-bottom: 15%;
+}
 
-/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-    object-fit:scale-down;
-
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.65);
 }

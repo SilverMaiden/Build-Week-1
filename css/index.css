@@ -6,24 +6,24 @@
   background-color: #420000 !important;
   width: 30% !important;
   height: 100% !important;
-  color: white !important;
+  color: #f6f6f6 !important;
   cursor: pointer !important;
   height: 45px !important;
-  font-size: 0.9rem !important;
+  font-size: 1.1rem !important;
   text-align: center !important;
   border-radius: 10px !important;
   transition: 0.3s !important;
 }
 .myBtn:hover {
-  background-color: white !important;
+  background-color: #f6f6f6 !important;
   color: #420000 !important;
 }
 * {
   box-sizing: border-box;
 }
 html {
-  font-size: 100%;
-  scroll-behavior: smooth !important;
+  font-size: 80%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -53,11 +53,21 @@ img {
 .nav-color {
   background-color: #420000;
 }
-.img {
-  width: 100px;
-  height: 100px;
-  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-  object-fit: scale-down;
+.nav-size {
+  width: 15%;
+}
+.carousel-padding {
+  margin-bottom: 15%;
+}
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
 }
 .featurette-divider {
   margin: 2% 0;

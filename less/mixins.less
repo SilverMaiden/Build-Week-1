@@ -1,4 +1,4 @@
-.custom-button(@bgcolor:teal, @font-color:white, @width:100%) {
+.custom-button(@bgcolor:teal, @font-color:white, @width:100%, @alt-font-color:@bgcolor) {
     background-color: @bgcolor;
     width: @width;
     height: 100%;
@@ -12,6 +12,6 @@
 
     &:hover {
         background-color: @font-color;
-        color: @bgcolor;
+        color: @alt-font-color;
     }
 }

@@ -2,22 +2,6 @@
 @import "reset";
 
 */
-.myBtn {
-  background-color: #420000 !important;
-  width: 30% !important;
-  height: 100% !important;
-  color: #f6f6f6 !important;
-  cursor: pointer !important;
-  height: 45px !important;
-  font-size: 1.1rem !important;
-  text-align: center !important;
-  border-radius: 10px !important;
-  transition: 0.3s !important;
-}
-.myBtn:hover {
-  background-color: #f6f6f6 !important;
-  color: #420000 !important;
-}
 * {
   box-sizing: border-box;
 }
@@ -50,14 +34,47 @@ img {
   max-width: 100%;
   height: auto;
 }
+footer {
+  background-color: #420000;
+  color: #f6f6f6;
+}
 .nav-color {
   background-color: #420000;
 }
 .nav-size {
   width: 15%;
 }
-.carousel-padding {
-  margin-bottom: 15%;
+.myBtn {
+  background-color: #f6f6f6;
+  width: 30%;
+  height: 100%;
+  color: #420000;
+  cursor: pointer;
+  height: 45px;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.myBtn:hover {
+  background-color: #420000;
+  color: #f6f6f6;
+}
+.loginBtn {
+  background-color: #f6f6f6;
+  width: 20%;
+  height: 100%;
+  color: #d4d7dd;
+  cursor: pointer;
+  height: 45px;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.loginBtn:hover {
+  background-color: #d4d7dd;
+  color: #420000;
 }
 .carousel-item:after {
   content: "";
@@ -114,8 +131,10 @@ img {
   margin-right: -15px;
   margin-left: -15px;
 }
+footer {
+  text-align: center;
+  list-style: none !important;
+}
 /*
-
-@import "footer";
 @import "home-page";
 */

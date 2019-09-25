@@ -18,7 +18,8 @@
   <body>
       <!-- NAV BAR -->
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-color">
+      <div id="page-top" />
+      <nav class="navbar navbar-expand-lg navbar-dark nav-color">
           <img class="navbar-brand nav-size" src="./assets/white_logo_transparent.png" />
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#page-top">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#row1">For Planners</a>
@@ -47,33 +48,34 @@
     <!-- CAROUSEL -->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
+          <div class="container">
+               <div class="carousel-caption">
+                   <br>
+                   <h1>Showcase your work. Build up clients.</h1>
+                   <br>
+                   <p>"Rocinante Weddings was incredible to work with. My planner made every decision easy, and took all the stress away!"</p>
+                   <br>
+                   <button class="loginBtn">Log In </button>
+                   <br>
+                </div>
+            </div>
+
+
         <div class="carousel-item active">
           <img class="d-block w-100" src="./assets/wedding-img-1.jpg" alt="First slide">
-           <div class="carousel-caption carousel-padding d-none d-md-block">
-               <h1>Sign Up Now</h1>
-               <p> Lots of stuff, lots of stuff, lorem di ipsum and random other stuff</p>
-               <button class="myBtn">Log In </button>
-            </div>
         </div>
         <div class="carousel-item">
-           <div class="carousel-caption carousel-padding d-none d-md-block">
-               <h1>Sign Up Now</h1>
-               <p> Lots of stuff, lots of stuff, lorem di ipsum and random other stuff</p>
-            </div>
-          <img class="d-block w-100" src="./assets/wedding-img-2.jpg" alt="Second slide">
+                  <img class="d-block w-100" src="./assets/wedding-img-2.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-           <div class="carousel-caption carousel-padding d-none d-md-block">
-               <h1>Sign Up Now</h1>
-               <p> Lots of stuff, lots of stuff, lorem di ipsum and random other stuff</p>
-            </div>
-          <img class="d-block w-100" src="./assets/wedding-img-3.jpg" alt="Third slide">
+                   <img class="d-block w-100" src="./assets/wedding-img-3.jpg" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -97,12 +99,12 @@
         reset: true
 });</script>
       <div class="col-md-7">
-        <h2 class="featurette-heading"> Find your perfect planner. <span class="text-muted"> See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading"> Find the perfect planner. <span class="text-muted"> See for yourself.</span></h2>
+        <p class="lead">
+Whether clients are looking for design advice or support on logistics and putting details together, our many planners can provide guidance and encouragement that will enable them to move towards their special day with less stress and much more confidence. View our planners portfolios, and find the perfect planner for you!</p>
           <button class="myBtn">View Portfolios</button>
       </div>
       <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="./assets/featurettes-image.svg" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -116,11 +118,12 @@
 
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading"> Build clientele. <span class="text-muted"> Showcase your work.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">As a wedding planner, getting new clients is key. And having a solid wedding portfolio to showcase your work is a crucial step to get landing new clients.
+
+But, taking the photos is only half the battle. They still need to be put out there for all to see! Our platform makes it easy for planners to upload their portfolios, and reach new clients.</p>
           <button class="myBtn">Sign Up</button>
       </div>
       <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto" src="./assets/featurettes-image.svg" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -133,20 +136,21 @@
         });</script>
       <div class="col-md-7">
         <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">Our planners passion for weddings, creative spirit, undivided attention for you, and open and affirming attitude sets Riconante Weddings apart. Each of the many planners on our platform bring a fresh perspective to event design, and work with your budget and ideas to create an extraordinary event with contemporary style and elegance.</p>
         <a href="about-us.html"><button class="myBtn">Learn More</button></a>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="./assets/featurettes-image.svg" alt="Generic placeholder image">
       </div>
 
     </div>
 
-        <hr class="featurette-divider">
 
-        <!-- /END THE FEATURETTES -->
-        <footer></footer>
-
+    <!-- /END THE FEATURETTES -->
+    <!-- FOOTER -->
+    <footer class="footer mt-auto py-3 ">
+      <div class="container">
+        <span>Copyright © Riconante Weddings</span>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,17 +1,140 @@
 /*
-@import "variables";
-@import "mixins";
-
 @import "reset";
 
-@import "global";
-
 */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 80%;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: #420000;
+  color: #f6f6f6;
+}
 .nav-color {
   background-color: #420000;
 }
+.nav-size {
+  width: 15%;
+}
+.myBtn {
+  background-color: #f6f6f6;
+  width: 30%;
+  height: 100%;
+  color: #420000;
+  cursor: pointer;
+  height: 45px;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.myBtn:hover {
+  background-color: #420000;
+  color: #f6f6f6;
+}
+.loginBtn {
+  background-color: #f6f6f6;
+  width: 20%;
+  height: 100%;
+  color: #d4d7dd;
+  cursor: pointer;
+  height: 45px;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.loginBtn:hover {
+  background-color: #d4d7dd;
+  color: #420000;
+}
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+.featurette-divider {
+  margin: 2% 0;
+  /* <hr> between each */
+}
+.featurette {
+  padding: 5%;
+  overflow: hidden;
+  /* Clear floats */
+}
+.featurette-image {
+  margin-top: −5%;
+  /* Vertically center image with the text */
+}
+.featurette-image .pull-left {
+  margin-right: 2%;
+}
+.featurette-image .pull-right {
+  margin-left: 2%;
+}
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.team-members {
+  justify-content: center;
+}
+.team-member p {
+  font-size: 0.8rem !important;
+  text-align: center;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+footer {
+  text-align: center;
+  list-style: none !important;
+}
 /*
-
-@import "footer";
 @import "home-page";
 */
